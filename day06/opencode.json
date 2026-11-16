@@ -1,0 +1,38 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "veai": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "veai",
+      "options": {
+        "baseURL": "https://api.veai.ru/openai/api"
+      },
+      "models": {
+        "auto": {
+          "limit": {
+            "context": 372000,
+            "output": 32768
+          }
+        },
+        "Anthropic/opus-5": {
+          "limit": {
+            "context": 465536,
+            "output": 65536
+          }
+        },
+        "Anthropic/sonnet-5": {
+          "limit": {
+            "context": 465536,
+            "output": 65536
+          }
+        },
+        "OpenAI/gpt-5.6-sol": {
+          "limit": {
+            "context": 372000,
+            "output": 32768
+          }
+        }
+      }
+    }
+  }
+}

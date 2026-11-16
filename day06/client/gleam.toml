@@ -1,0 +1,19 @@
+name = "client"
+version = "1.0.0"
+description = "Lustre SPA: интерфейс чата"
+target = "javascript"
+
+[javascript]
+runtime = "bun"
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+gleam_json = ">= 3.0.0 and < 4.0.0"
+gleam_http = ">= 4.0.0 and < 5.0.0"
+lustre = ">= 5.0.0 and < 6.0.0"
+rsvp = ">= 1.0.0 and < 2.0.0"
+shared = { path = "../shared" }
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
+lustre_dev_tools = ">= 2.4.0 and < 3.0.0"

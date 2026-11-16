@@ -1,0 +1,12 @@
+build/
+.lustre/
+data/
+node_modules/
+
+# Собранный клиент — продукт сборки
+server/priv/static/client.js
+server/priv/static/client.js.map
+
+*.db
+*.db-shm
+*.db-wal

@@ -1,0 +1,1884 @@
+{
+    "data": [
+        {
+            "id": "autopilot",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "autopilot",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "autopilot"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "auto",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "auto",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "auto"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/haiku-4.5",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 136000,
+            "max_output_tokens": 64000,
+            "context_window": 200000,
+            "context_length": 200000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": false,
+            "title": "haiku-4.5",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/haiku-4.5"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens"
+            ],
+            "architecture": {
+                "context_length": 200000,
+                "max_output_tokens": 64000
+            }
+        },
+        {
+            "id": "Anthropic/haiku-5.5",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "haiku-5.5",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/haiku-5.5"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/opus-4.6",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "opus-4.6",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/opus-4.6"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/opus-4.7",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "opus-4.7",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/opus-4.7"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/opus-4.8",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "opus-4.8",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/opus-4.8"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/opus-5",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "opus-5",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/opus-5"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/opus-5.5",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "opus-5.5",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/opus-5.5"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/sonnet-4.6",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "sonnet-4.6",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/sonnet-4.6"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/sonnet-5",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "sonnet-5",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/sonnet-5"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Anthropic/sonnet-5.5",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "sonnet-5.5",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Anthropic/sonnet-5.5"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "DeepSeek/deepseek-v4-pro",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 1015808,
+            "max_output_tokens": 32768,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": false,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "deepseek-v4-pro",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "DeepSeek/deepseek-v4-pro"
+            ],
+            "input_modalities": [
+                "text"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 32768
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "DeepSeek/deepseek-v4.1-flash",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 664576,
+            "max_output_tokens": 384000,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "deepseek-v4.1-flash",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "DeepSeek/deepseek-v4.1-flash"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 384000
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Google/gemini-3.5-flash-lite",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 983040,
+            "max_output_tokens": 65536,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": false,
+            "title": "gemini-3.5-flash-lite",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Google/gemini-3.5-flash-lite"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 65536
+            }
+        },
+        {
+            "id": "Google/gemini-3.8-flash",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 983040,
+            "max_output_tokens": 65536,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gemini-3.8-flash",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Google/gemini-3.8-flash"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Google/gemini-4-carbon",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 983040,
+            "max_output_tokens": 65536,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gemini-4-carbon",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Google/gemini-4-carbon"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Google/gemini-4-hydrogen",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 983040,
+            "max_output_tokens": 65536,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gemini-4-hydrogen",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Google/gemini-4-hydrogen"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Moonshot/kimi-k3",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 1015808,
+            "max_output_tokens": 32768,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "kimi-k3",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Moonshot/kimi-k3"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 32768
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Moonshot/kimi-k3.1-pro",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 917504,
+            "max_output_tokens": 131072,
+            "context_window": 1048576,
+            "context_length": 1048576,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "kimi-k3.1-pro",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Moonshot/kimi-k3.1-pro"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1048576,
+                "max_output_tokens": 131072
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "OpenAI/gpt-5.6-luna",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gpt-5.6-luna",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "OpenAI/gpt-5.6-luna"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "OpenAI/gpt-5.6-sol",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gpt-5.6-sol",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "OpenAI/gpt-5.6-sol"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "OpenAI/gpt-5.6-terra",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gpt-5.6-terra",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "OpenAI/gpt-5.6-terra"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "OpenAI/gpt-6-luna",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gpt-6-luna",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "OpenAI/gpt-6-luna"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "OpenAI/gpt-6-sol",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gpt-6-sol",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "OpenAI/gpt-6-sol"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "OpenAI/gpt-6.1-sol",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gpt-6.1-sol",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "OpenAI/gpt-6.1-sol"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "OpenAI/gpt-6.1-terra",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 834464,
+            "max_output_tokens": 65536,
+            "context_window": 900000,
+            "context_length": 900000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "gpt-6.1-terra",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "OpenAI/gpt-6.1-terra"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 900000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Qwen/qwen3.6-flash",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "qwen3.6-flash",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Qwen/qwen3.6-flash"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Qwen/qwen3.7-max",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 868928,
+            "max_output_tokens": 131072,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": false,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "qwen3.7-max",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Qwen/qwen3.7-max"
+            ],
+            "input_modalities": [
+                "text"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 131072
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Qwen/qwen3.7-plus",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 868928,
+            "max_output_tokens": 131072,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "qwen3.7-plus",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Qwen/qwen3.7-plus"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 131072
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Qwen/qwen3.8-flash",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 868928,
+            "max_output_tokens": 131072,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "qwen3.8-flash",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Qwen/qwen3.8-flash"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 131072
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Qwen/qwen3.8-max",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 868928,
+            "max_output_tokens": 131072,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": true,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "qwen3.8-max",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Qwen/qwen3.8-max"
+            ],
+            "input_modalities": [
+                "text",
+                "image"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 131072
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Z.AI/glm-5.2",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": false,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "glm-5.2",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Z.AI/glm-5.2"
+            ],
+            "input_modalities": [
+                "text"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Z.AI/glm-5.3",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": false,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "glm-5.3",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Z.AI/glm-5.3"
+            ],
+            "input_modalities": [
+                "text"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "Z.AI/glm-5.3-flash",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 934464,
+            "max_output_tokens": 65536,
+            "context_window": 1000000,
+            "context_length": 1000000,
+            "supports_tool_calls": true,
+            "supports_vision": false,
+            "supports_json_output": true,
+            "supports_json_schema": true,
+            "supports_reasoning": true,
+            "title": "glm-5.3-flash",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "Z.AI/glm-5.3-flash"
+            ],
+            "input_modalities": [
+                "text"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 1000000,
+                "max_output_tokens": 65536
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        },
+        {
+            "id": "free",
+            "object": "model",
+            "created": 1794591846,
+            "owned_by": "VeAI",
+            "max_input_tokens": 200000,
+            "max_output_tokens": 32000,
+            "context_window": 232000,
+            "context_length": 232000,
+            "supports_tool_calls": true,
+            "supports_vision": false,
+            "supports_json_output": false,
+            "supports_json_schema": false,
+            "supports_reasoning": true,
+            "title": "free",
+            "api_provider": "openai_compatible",
+            "endpoint": "https://api.veai.ru/openai/api/v1",
+            "versions": [
+                "free"
+            ],
+            "input_modalities": [
+                "text"
+            ],
+            "output_modalities": [
+                "text"
+            ],
+            "features": [
+                "streaming",
+                "prompt_caching"
+            ],
+            "supported_params": [
+                "temperature",
+                "max_tokens",
+                "reasoning"
+            ],
+            "architecture": {
+                "context_length": 232000,
+                "max_output_tokens": 32000
+            },
+            "reasoning": {
+                "mandatory": false,
+                "default_enabled": true,
+                "default_effort": "medium",
+                "supported_efforts": [
+                    "low",
+                    "medium",
+                    "high",
+                    "xhigh",
+                    "max"
+                ]
+            }
+        }
+    ],
+    "usage": null,
+    "first_id": null,
+    "last_id": null,
+    "has_more": null
+}

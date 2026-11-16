@@ -1,0 +1,7 @@
+{
+  "name": "e2e",
+  "private": true,
+  "dependencies": {
+    "happy-dom": "^21.0.4"
+  }
+}
